@@ -84,4 +84,4 @@ while True:
     year, month, mday, hour, minute, second, weekday, yearday = time.localtime()
     lcd_display.update(hour = hour, minute = minute)
     dht11_sensor.read_temperature()    
-    time.sleep(5)  # Esperar 1 segundo antes de la próxima iteración
+    time.sleep(3)  # Esperar 1 segundo antes de la próxima iteración
